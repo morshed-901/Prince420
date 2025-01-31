@@ -48,7 +48,7 @@ module.exports.run = async function({ api, event, Users }) {
   if (event.logMessageData.addedParticipants && Array.isArray(event.logMessageData.addedParticipants) && event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     //api.changeNickname(`𝗕𝗢𝗧 ${(!global.config.BOTNAME) ? "Buddy" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 
-    let gifUrl = 'https://i.imgur.com/Py4A0Qt.jpeg';
+    let gifUrl = 'https://i.postimg.cc/SNQXkB0y/lv-0-20231018174834.gif';
 let gifPath = __dirname + '/Nayan/join/join.gif';
 
 axios.get(gifUrl, { responseType: 'arraybuffer' })
@@ -56,17 +56,17 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি মোঃ মোর্শেদ এর বট তোমাদের সাথে ইসলাম প্রচার করার জন্য🥰🫶!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি মোঃ মোর্শেদ এর বট তোমাদের সাথে ইসলাম প্রচার করার জন্য 🥰🫶!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-ধন্যবাদ সবাইকে এতো সুন্দর ইসলাম প্রচার করার জন্য!!! 
+পর্দা শুধু পোশাকে নয়,পর্দা চোখে,অন্তরে,কন্ঠে,আচরণে!! !!! 
 
-আমার বস Md Morshed ছাড়া কারো কথা শুনবো না!!!
+মৃত্যু কখনো আপনার প্রস্তুতির অপেক্ষা করবে না,আপনি প্রস্তুত থেকে মৃত্যুর অপেক্ষা করুন
+
+                  [সূরা ইনফিতার ৬]!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
-\n\EXAMPLE:👇\n${global.config.PREFIX}admin (Md Morshed)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}\n${global.config.PREFIX}fb video (link)
+\n\EXAMPLE:👇\n${global.config.PREFIX}admin (Md Morshed)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX} islamic (link)\n${global.config.PREFIX}fbvideo (link)
 <------------------------------>
- "180 কোটি মানুষের কলিজার টুকরা
-আমাদের প্রিয় নবী ।
--হযরত মুহাম্মদ (সাঃ)"
+AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
 DEVELOPER :Md Morshed 
 
@@ -76,7 +76,7 @@ https://www.facebook.com/Morshedmp123
 
 🔵WHATSAPP NUMBER: wa.me/+8801615101797
 
-🟢SUPPORT EMAIL: www.morshadulislam@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: www.morshadulislam0182522@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
@@ -186,4 +186,4 @@ https://www.facebook.com/Morshedmp123
       }
     } catch (e) { return console.log(e) };
   }
-}
+    }
