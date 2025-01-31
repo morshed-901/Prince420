@@ -58,15 +58,13 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     return api.sendMessage("চলে এসেছি আমি মোঃ মোর্শেদ এর বট তোমাদের সাথে ইসলাম প্রচার করার জন্য🥰!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT লা ইলাহা ইল্লাল্লাহু মুহাম্মাদুর রাসুলুল্লাহ ❤️ !!! 
+BOT !!! 
 
-APPROVAL 180 কোটি মানুষের কলিজার টুকরা
-আমাদের প্রিয় নবী
- হযরত মুহাম্মদ (সাঃ)!!!
+APPROVAL
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
 \n\EXAMPLE:👇\n${global.config.PREFIX}admin (Md Morshed)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}islam (link)\n${global.config.PREFIX}fbvideo (link)
 <------------------------------>
-সবাইকে একদিন মৃত্যুর স্বাদ গ্রহণ করতে হবে
+
 
 DEVELOPER :Md Morshed 
 
