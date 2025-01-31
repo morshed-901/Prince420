@@ -56,19 +56,17 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি পিচ্চি নয়ন তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি মোঃ মোর্শেদ এর বট তোমাদের সাথে ইসলাম প্রচার করার জন্য🥰!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
 BOT লা ইলাহা ইল্লাল্লাহু মুহাম্মাদুর রাসুলুল্লাহ ❤️ !!! 
 
 APPROVAL 180 কোটি মানুষের কলিজার টুকরা
 আমাদের প্রিয় নবী
--হযরত মুহাম্মদ (সাঃ)!!!
+ হযরত মুহাম্মদ (সাঃ)!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
 \n\EXAMPLE:👇\n${global.config.PREFIX}admin (Md Morshed)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}islam (link)\n${global.config.PREFIX}fbvideo (link)
 <------------------------------>
-❒দুনিয়া অর্জন নয় দুনিয়া বিমুখীতাতেই রয়েছে দেহ ও মনের প্রশান্তি
-
-উমার ইবনুল খাত্তাব (রা)‌
+সবাইকে একদিন মৃত্যুর স্বাদ গ্রহণ করতে হবে
 
 DEVELOPER :Md Morshed 
 
