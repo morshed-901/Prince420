@@ -58,15 +58,17 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     return api.sendMessage("চলে এসেছি আমি মোঃ মোর্শেদ এর বট তোমাদের সাথে ইসলাম প্রচার করার জন্য🥰🫶!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+ধন্যবাদ সবাইকে এতো সুন্দর ইসলাম প্রচার করার জন্য!!! 
 
-APPROVAL ALLOW IN THIS GROUP!!!
+আমার বস Md Morshed ছাড়া কারো কথা শুনবো না!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
-\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)
+\n\EXAMPLE:👇\n${global.config.PREFIX}admin (Md Morshed)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}\n${global.config.PREFIX}fb video (link)
 <------------------------------>
-AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
+ "180 কোটি মানুষের কলিজার টুকরা
+আমাদের প্রিয় নবী ।
+-হযরত মুহাম্মদ (সাঃ)"
 
-DEVELOPER :Morshed
+DEVELOPER :Md Morshed 
 
 🟣Facebook Account Link: 
 
