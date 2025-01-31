@@ -56,27 +56,25 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     fs.writeFileSync(gifPath, response.data);
   if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
-    return api.sendMessage("চলে এসেছি আমি মোঃ মোর্শেদ এর বট তোমাদের সাথে ইসলাম প্রচার করার জন্য 🥰🫶!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
+    return api.sendMessage("চলে এসেছি আমি পিচ্চি নয়ন তোমাদের মাঝে🤭!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-পর্দা শুধু পোশাকে নয়,পর্দা চোখে,অন্তরে,কন্ঠে,আচরণে!! !!! 
+BOT CONNECTED SUCCESFUL !!! 
 
-মৃত্যু কখনো আপনার প্রস্তুতির অপেক্ষা করবে না,আপনি প্রস্তুত থেকে মৃত্যুর অপেক্ষা করুন
-
-                  [সূরা ইনফিতার ৬]!!!
+APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
-\n\EXAMPLE:👇\n${global.config.PREFIX}admin (Md Morshed)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX} islamic (link)\n${global.config.PREFIX}fbvideo (link)
+\n\EXAMPLE:👇\n${global.config.PREFIX}admin (information)\n${global.config.PREFIX}islam (video)\n${global.config.PREFIX}tik (link)\n${global.config.PREFIX}fbvideo (link)
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Md Morshed 
+DEVELOPER :Mohammad Nayan 
 
 🟣Facebook Account Link: 
 
-https://www.facebook.com/Morshedmp123
+https://www.facebook.com/www.xnxx.com169
 
-🔵WHATSAPP NUMBER: wa.me/+8801615101797
+🔵WHATSAPP NUMBER: wa.me/+8801615298449
 
-🟢SUPPORT EMAIL: www.morshadulislam0182522@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
+🟢SUPPORT EMAIL: www.mdmnnm2004@gmail.com`, attachment: fs.createReadStream(gifPath)}, threadID));
   }})
 .catch(error => {
     console.error(error);
@@ -186,4 +184,4 @@ https://www.facebook.com/Morshedmp123
       }
     } catch (e) { return console.log(e) };
   }
-    }
+                   }
