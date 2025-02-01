@@ -66,7 +66,7 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Md Morshed 
+DEVELOPER :Prince Morshed
 
 🟣Facebook Account Link: 
 
