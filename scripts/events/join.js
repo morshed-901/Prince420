@@ -58,7 +58,7 @@ axios.get(gifUrl, { responseType: 'arraybuffer' })
     api.changeNickname(`[ ${global.config.PREFIX} ] • ➠${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
     return api.sendMessage("চলে এসেছি আমি মোঃ মোর্শেদ এর বট তোমাদের সাথে ইসলাম প্রচার করার জন্য আমারে কেউ ডিস্টার্ব করবে না🤲!", event.threadID, () => api.sendMessage({ body: `${global.config.BOTNAME} CONNECTED«\n\nAssalamualaykum☘️
 <------------------------------>  
-BOT CONNECTED SUCCESFUL !!! 
+BOT CONNECTED PRINCE MORSHED !!! 
 
 APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>\n\nTO VIEW ANY COMMAND Use👉${global.config.PREFIX}help\nSee command👉 ${global.config.PREFIX}command
