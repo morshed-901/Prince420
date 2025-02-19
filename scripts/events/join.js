@@ -66,11 +66,9 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 AND FOR ANY COMPLAINTS OR CONTACT BOT OPERATOR 
 
-DEVELOPER :Prince Morshed
+DEVELOPER : Md Morshed
 
-🟣Facebook Account Link: 
-
-https://www.facebook.com/Morshedmp123
+🟣Facebook Account Link: https://www.facebook.com/Morshedmp123
 
 🔵WHATSAPP NUMBER: wa.me/+8801615101797
 
