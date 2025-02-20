@@ -105,9 +105,9 @@ DEVELOPER : Md Morshed
           `https://graph.facebook.com/${event.logMessageData.addedParticipants[o].userFbId}/picture?height=720&width=720&access_token=6628568379%7Cc1e620fa708a1d5696fb991c1bde5662`), { responseType: "arraybuffer" })).data;
         var ok = [
           'https://i.imgur.com/bcUHpVS.jpeg',
-          'https://i.imgur.com/bcUHpVS.jpeg',
-          'https://i.imgur.com/bcUHpVS.jpeg',
-          'https://i.imgur.com/bcUHpVS.jpeg',
+          'https://i.imgur.com/e3frfI9.jpeg',
+          'https://i.imgur.com/CvzhVix.jpeg',
+          'https://i.imgur.com/q19aeMo.jpeg',
           'https://i.imgur.com/bcUHpVS.jpeg'
         ]
         let background = (await axios.get(encodeURI(`${ok[Math.floor(Math.random() * ok.length)]}`), { responseType: "arraybuffer", })).data;
@@ -161,7 +161,7 @@ DEVELOPER : Md Morshed
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `Hello {name}\nWelcome to {threadName}\nyou're the {soThanhVien}th member on this group please enjoy"\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `আসসালামু আলাইকুম {name}\n স্বাগতম আপনাকে  {threadName}\n আপনি'গ্রুপের {soThanhVien} এত তম সদস্য🥰 গ্রুপের নিয়ম জানতে 👉Rules👈 "\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
