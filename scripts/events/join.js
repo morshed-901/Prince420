@@ -161,7 +161,7 @@ DEVELOPER : Md Morshed
         abx.push(fs.createReadStream(__dirname + `/Nayan/join/${o}.png`))
       }
       memLength.sort((a, b) => a - b);
-      (typeof threadData.customJoin == "undefined") ? msg = `আসসালামু আলাইকুম {name}\n স্বাগতম আপনাকে  {threadName}\n আপনি'গ্রুপের {soThanhVien} এত তম সদস্য🥰 গ্রুপের নিয়ম জানতে 👉Rules👈 "\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
+      (typeof threadData.customJoin == "undefined") ? msg = `আসসালামু আলাইকুম {name}\nস্বাগতম আপনাকে {threadName}\nআপনি গ্রুপের{soThanhVien} তম সদস্য🥰 গ্রুপের নিয়ম জানতে 👉Rules👈"\n─────────────────\n[ {time} - {thu} ]` : msg = threadData.customJoin;
       var nameAuthor = await Users.getNameUser(event.author)
       msg = msg
         .replace(/\{iduser}/g, iduser.join(', '))
