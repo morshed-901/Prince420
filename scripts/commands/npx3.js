@@ -28,7 +28,7 @@ const media = (
 
 	if (body.indexOf("🥰")==0 || body.indexOf("🤩")==0 || body.indexOf("😍")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0 || body.indexOf(" ")==0) {
 		var msg = {
-				body: "🖤🥀",
+				body: "রমজান মাসে বেশি বেশি আমল করো",
 				attachment: media
 			}
 			api.sendMessage( msg, threadID, messageID);
