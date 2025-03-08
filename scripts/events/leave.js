@@ -20,7 +20,7 @@ module.exports.run = async function({ api, event, Users, Threads }) {
 
 	if (existsSync(path)) mkdirSync(path, { recursive: true });
 
-	(typeof data.customLeave == "undefined") ? msg = "আপনি {name} গ্রুপে থাকার যোগ্য না .\n\n{type} " : msg = data.customLeave;
+	(typeof data.customLeave == "undefined") ? msg = "ইসলামিয়া ফাউন্ডেশন এর নিয়ম না মানার কারণে {name} কে গ্রুপে থেকে বহিষ্কার করা হলো  .\n\n{type} " : msg = data.customLeave;
 	msg = msg.replace(/\{name}/g, name).replace(/\{type}/g, type);
 
 	if (existsSync(gifPath)) formPush = { body: msg, attachment: createReadStream(gifPath) }
